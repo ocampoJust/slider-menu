@@ -1,0 +1,53 @@
+.slideshow-container{
+float: center;
+height: 500px; 
+width: 80%;
+position: relative;
+margin: auto;	
+}
+.myslides{
+width: 100%;
+height: 100%;
+display: none;
+}
+.myslides div{
+	font-family: arial;
+	text-align: center;
+	padding-top:20%;
+}
+.myslides div h1{
+	color: white;
+}
+.prev , .next{
+position: absolute;
+top: 50%;
+font-size: 18px;
+font-weight: bold;
+padding: 16px;
+margin-top: -22px;
+border-radius: 0 3px 3px 0;
+color: #fff;
+cursor: pointer;
+}
+.next{
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+.prev:hover,.next:hover{
+background-color: rgba(0,0,0,0.8);
+}
+.dots{
+width: 13px;
+height: 13px;
+background: #c3c3c3;
+display: inline-block;
+border-radius: 50%;
+cursor: pointer;
+}
+.active, .dot:hover {
+background-color: #333;
+}
+
+.slideshow-container{
+	overflow: hidden;
+}
